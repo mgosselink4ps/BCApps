@@ -2579,7 +2579,6 @@
         DeferralLine: Record "Deferral Line";
         DeferralTemplateCode: Code[10];
         ItemNo: Code[20];
-        TotalAmountLCY: Decimal;
     begin
         // [SCENARIO 641062] Amount (LCY) is filled in the deferral schedule of an unposted foreign currency document
         Initialize();
